@@ -5236,8 +5236,8 @@
     {
       "id": "OPYJzxX_fQRyoKQnTzgL4",
       "type": "text",
-      "x": 133.5995077580211,
-      "y": 550.249369730644,
+      "x": 719.5995077580211,
+      "y": 490.24936973064405,
       "width": 293.019775390625,
       "height": 125,
       "angle": 0,
@@ -5253,22 +5253,1521 @@
       "index": "b3j",
       "roundness": null,
       "seed": 756954000,
-      "version": 407,
-      "versionNonce": 962928496,
+      "version": 526,
+      "versionNonce": 249620848,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1790660906638,
+      "updated": 1790661027178,
       "created": 1790660820132,
       "link": null,
       "locked": false,
-      "text": "3. Core Entity (Actors);\n- Admin\n- Customers (users)\n- Airline authority (operators)\n",
+      "text": "3. Actors ;\n- Admin\n- Customers (users)\n- Airline authority (operators)\n",
       "fontSize": 20,
       "baseFontSize": null,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "3. Core Entity (Actors);\n- Admin\n- Customers (users)\n- Airline authority (operators)\n",
+      "originalText": "3. Actors ;\n- Admin\n- Customers (users)\n- Airline authority (operators)\n",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "1O1gjYgHjbWbLVHmnjife",
+      "type": "text",
+      "x": 950.679509589076,
+      "y": 390.24936973064405,
+      "width": 198.99984741210938,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3k",
+      "roundness": null,
+      "seed": 2133373296,
+      "version": 907,
+      "versionNonce": 385201520,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790661279741,
+      "created": 1790661031671,
+      "link": null,
+      "locked": false,
+      "text": "4. Core Entity;\n- Users\n- Flights\n- Booking\n- Payment\n- Notification server",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "4. Core Entity;\n- Users\n- Flights\n- Booking\n- Payment\n- Notification server",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "jUQt5DgrkIS2gifY_Jbe3",
+      "type": "text",
+      "x": 146.18939728438852,
+      "y": 632.249369730644,
+      "width": 265.43988037109375,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3l",
+      "roundness": null,
+      "seed": 537377648,
+      "version": 127,
+      "versionNonce": 753576304,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666262477,
+      "created": 1790661238248,
+      "link": null,
+      "locked": false,
+      "text": "5. Low Level Design",
+      "fontSize": 28,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "5. Low Level Design",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "6vL2ygNBeXazEQAxxe_0L",
+      "type": "text",
+      "x": 462.679509589076,
+      "y": 737.249369730644,
+      "width": 269.8398132324219,
+      "height": 175,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3m",
+      "roundness": null,
+      "seed": 1833640848,
+      "version": 813,
+      "versionNonce": 476485520,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "IiQWNrhXBrTe6h5hObixf",
+          "type": "arrow"
+        },
+        {
+          "id": "Rvzu2IQuV9X4s6S3MJGL7",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1790666260712,
+      "created": 1790661288088,
+      "link": null,
+      "locked": false,
+      "text": "class Flight {\n    string flightNo;\n    Airline company;\n    int seatCapacity;\n    List<Seat> seat;\n    List<Schedule> schedule;\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class Flight {\n    string flightNo;\n    Airline company;\n    int seatCapacity;\n    List<Seat> seat;\n    List<Schedule> schedule;\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "ZJPivb-DjKAy-zra-yoYF",
+      "type": "text",
+      "x": 149.3994726628065,
+      "y": 748.749369730644,
+      "width": 225.3998565673828,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3n",
+      "roundness": null,
+      "seed": 2011805072,
+      "version": 941,
+      "versionNonce": 882665840,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "IiQWNrhXBrTe6h5hObixf",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1790666260712,
+      "created": 1790661437454,
+      "link": null,
+      "locked": false,
+      "text": "class Airline {\n    string name;\n    List<Flight> flights;\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class Airline {\n    string name;\n    List<Flight> flights;\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "3BwKDCvyR-S8fn10meh7a",
+      "type": "text",
+      "x": 147.4894690006971,
+      "y": 894.749369730644,
+      "width": 197.51983642578125,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3o",
+      "roundness": null,
+      "seed": 2011298192,
+      "version": 998,
+      "versionNonce": 1087186320,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Rvzu2IQuV9X4s6S3MJGL7",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1790666260712,
+      "created": 1790665225133,
+      "link": null,
+      "locked": false,
+      "text": "class Seat {\n    string seatNo;\n    string seatClass;\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class Seat {\n    string seatNo;\n    string seatClass;\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "UAtaco2SMZBs-hW7pTZaX",
+      "type": "freedraw",
+      "x": 202.18939728438852,
+      "y": 764.749369730644,
+      "width": 247,
+      "height": 42,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3p",
+      "roundness": null,
+      "seed": 1076208016,
+      "version": 84,
+      "versionNonce": 2004206960,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1790665337359,
+      "created": 1790665327318,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          10,
+          -1
+        ],
+        [
+          16,
+          -1
+        ],
+        [
+          22,
+          -1
+        ],
+        [
+          25,
+          -1
+        ],
+        [
+          28,
+          -1
+        ],
+        [
+          34,
+          -1
+        ],
+        [
+          40,
+          -1
+        ],
+        [
+          47,
+          -1
+        ],
+        [
+          54,
+          -1
+        ],
+        [
+          61,
+          -1
+        ],
+        [
+          70,
+          0
+        ],
+        [
+          74,
+          0
+        ],
+        [
+          77,
+          0
+        ],
+        [
+          79,
+          0
+        ],
+        [
+          80,
+          0
+        ],
+        [
+          82,
+          0
+        ],
+        [
+          84,
+          0
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          89,
+          1
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          95,
+          1
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          98,
+          2
+        ],
+        [
+          100,
+          2
+        ],
+        [
+          103,
+          3
+        ],
+        [
+          106,
+          4
+        ],
+        [
+          108,
+          4
+        ],
+        [
+          110,
+          4
+        ],
+        [
+          111,
+          5
+        ],
+        [
+          113,
+          5
+        ],
+        [
+          114,
+          5
+        ],
+        [
+          115,
+          5
+        ],
+        [
+          116,
+          5
+        ],
+        [
+          117,
+          5
+        ],
+        [
+          119,
+          6
+        ],
+        [
+          120,
+          6
+        ],
+        [
+          123,
+          6
+        ],
+        [
+          124,
+          7
+        ],
+        [
+          125,
+          7
+        ],
+        [
+          126,
+          7
+        ],
+        [
+          130,
+          7
+        ],
+        [
+          138,
+          9
+        ],
+        [
+          140,
+          10
+        ],
+        [
+          142,
+          11
+        ],
+        [
+          143,
+          11
+        ],
+        [
+          145,
+          12
+        ],
+        [
+          146,
+          12
+        ],
+        [
+          148,
+          12
+        ],
+        [
+          151,
+          14
+        ],
+        [
+          157,
+          15
+        ],
+        [
+          161,
+          15
+        ],
+        [
+          165,
+          17
+        ],
+        [
+          169,
+          18
+        ],
+        [
+          171,
+          19
+        ],
+        [
+          173,
+          19
+        ],
+        [
+          176,
+          21
+        ],
+        [
+          177,
+          21
+        ],
+        [
+          181,
+          23
+        ],
+        [
+          185,
+          25
+        ],
+        [
+          190,
+          26
+        ],
+        [
+          194,
+          28
+        ],
+        [
+          199,
+          29
+        ],
+        [
+          202,
+          31
+        ],
+        [
+          205,
+          32
+        ],
+        [
+          208,
+          33
+        ],
+        [
+          213,
+          34
+        ],
+        [
+          215,
+          34
+        ],
+        [
+          217,
+          36
+        ],
+        [
+          220,
+          36
+        ],
+        [
+          222,
+          37
+        ],
+        [
+          226,
+          38
+        ],
+        [
+          228,
+          39
+        ],
+        [
+          234,
+          40
+        ],
+        [
+          239,
+          40
+        ],
+        [
+          241,
+          41
+        ],
+        [
+          242,
+          41
+        ],
+        [
+          243,
+          41
+        ],
+        [
+          245,
+          41
+        ],
+        [
+          247,
+          41
+        ],
+        [
+          247,
+          41
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "strokeOptions": {
+        "variability": "constant",
+        "streamline": 0.5
+      }
+    },
+    {
+      "id": "IiQWNrhXBrTe6h5hObixf",
+      "type": "arrow",
+      "x": 494.57803949782937,
+      "y": 803.999369730644,
+      "width": 201.38864221344085,
+      "height": 44.25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3q",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1408903056,
+      "version": 138,
+      "versionNonce": 319577456,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260728,
+      "created": 1790665349890,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -201.38864221344085,
+          -44.25
+        ]
+      ],
+      "startBinding": {
+        "elementId": "6vL2ygNBeXazEQAxxe_0L",
+        "mode": "inside",
+        "fixedPoint": [
+          0.11821283718899589,
+          0.38142857142857145
+        ]
+      },
+      "endBinding": {
+        "elementId": "ZJPivb-DjKAy-zra-yoYF",
+        "mode": "inside",
+        "fixedPoint": [
+          0.6379326358559432,
+          0.11
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": false
+    },
+    {
+      "id": "Rvzu2IQuV9X4s6S3MJGL7",
+      "type": "arrow",
+      "x": 483.0759852128601,
+      "y": 853.4989186138835,
+      "width": 202.36259055592495,
+      "height": 35.25045111676059,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3r",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 31873392,
+      "version": 292,
+      "versionNonce": 2009579888,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666260728,
+      "created": 1790665358095,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -202.36259055592495,
+          35.25045111676059
+        ]
+      ],
+      "startBinding": {
+        "elementId": "6vL2ygNBeXazEQAxxe_0L",
+        "mode": "inside",
+        "fixedPoint": [
+          0.07558734709846505,
+          0.6642831364756537
+        ]
+      },
+      "endBinding": {
+        "elementId": "3BwKDCvyR-S8fn10meh7a",
+        "mode": "orbit",
+        "fixedPoint": [
+          0.6744837787788335,
+          -0.06
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": false
+    },
+    {
+      "id": "wCKLndOZC-QpM7xA7pFtB",
+      "type": "text",
+      "x": 790.4894690006971,
+      "y": 708.749369730644,
+      "width": 252.55984497070312,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3s",
+      "roundness": null,
+      "seed": 5149552,
+      "version": 1212,
+      "versionNonce": 633654640,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666260712,
+      "created": 1790665525494,
+      "link": null,
+      "locked": false,
+      "text": "class Schedule{\n    Flight flight;\n    Airport start;\n    Airport destination;\n    TimeStamp start;\n    TimeStamp end;\n    Status status;\n    <List<FlightSeat> fare\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class Schedule{\n    Flight flight;\n    Airport start;\n    Airport destination;\n    TimeStamp start;\n    TimeStamp end;\n    Status status;\n    <List<FlightSeat> fare\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "45oOjs8dIW6FK6pqOFgQh",
+      "type": "text",
+      "x": 1086.429479071498,
+      "y": 775.749369730644,
+      "width": 199.15994262695312,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3t",
+      "roundness": null,
+      "seed": 779949424,
+      "version": 1174,
+      "versionNonce": 533528976,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666260712,
+      "created": 1790665640820,
+      "link": null,
+      "locked": false,
+      "text": "enum Status {\n    DELAY, ONTIME,\n    CANCELLED\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "enum Status {\n    DELAY, ONTIME,\n    CANCELLED\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "qoquiZVPnisI2pYMk1bTy",
+      "type": "arrow",
+      "x": 1065.1893972843886,
+      "y": 748.749369730644,
+      "width": 17.04392762428688,
+      "height": 10.716325774374468,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3u",
+      "roundness": null,
+      "seed": 1060279664,
+      "version": 5,
+      "versionNonce": 1445576592,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1790665737031,
+      "created": 1790665734656,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          17.04392762428688,
+          10.716325774374468
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": {
+        "elementId": "45oOjs8dIW6FK6pqOFgQh",
+        "mode": "orbit",
+        "fixedPoint": [
+          0.7318736704293685,
+          0.9
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "pLcvU3or9nxGrakzXkE3c",
+      "type": "rectangle",
+      "x": 1071.1893972843886,
+      "y": 751.749369730644,
+      "width": 229,
+      "height": 143,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3v",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 642456464,
+      "version": 52,
+      "versionNonce": 1353293680,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790665750131,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "dmHdPjQtpoAngT6uT1Gyn",
+      "type": "rectangle",
+      "x": 449.1893972843885,
+      "y": 724.749369730644,
+      "width": 296,
+      "height": 206,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3w",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 397152144,
+      "version": 76,
+      "versionNonce": 534138768,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790665760083,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "sdOvrePar8HajjialuFLZ",
+      "type": "rectangle",
+      "x": 135.18939728438852,
+      "y": 890.749369730644,
+      "width": 219,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3x",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 360776560,
+      "version": 56,
+      "versionNonce": 723792240,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790665769698,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "kv-JpPxJ9EOMRVhXdTfIk",
+      "type": "rectangle",
+      "x": 142.18939728438852,
+      "y": 744.749369730644,
+      "width": 243,
+      "height": 124,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3y",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2063707536,
+      "version": 66,
+      "versionNonce": 763747728,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790665774942,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "TB853ZKJa4fjjTx8gU7zx",
+      "type": "text",
+      "x": 135.4294790714979,
+      "y": 1040.749369730644,
+      "width": 315.3597717285156,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b3z",
+      "roundness": null,
+      "seed": 259004272,
+      "version": 1079,
+      "versionNonce": 1014793072,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666260712,
+      "created": 1790665838492,
+      "link": null,
+      "locked": false,
+      "text": "class FlightSeat extends Seat {\n    int price;\n    status status;\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class FlightSeat extends Seat {\n    int price;\n    status status;\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "tJHOlpNBJqwxizh2mQ4V8",
+      "type": "rectangle",
+      "x": 121.18939728438852,
+      "y": 1033.749369730644,
+      "width": 366,
+      "height": 113,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b40",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1349068688,
+      "version": 71,
+      "versionNonce": 974367632,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790665916491,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "VpIQ-VEEyYKwLmNAUMyO9",
+      "type": "text",
+      "x": 903.5095114201308,
+      "y": 988.749369730644,
+      "width": 225.3998565673828,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b41",
+      "roundness": null,
+      "seed": 38482800,
+      "version": 1277,
+      "versionNonce": 1660589424,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666260712,
+      "created": 1790666053243,
+      "link": null,
+      "locked": false,
+      "text": "class Airport {\n    string name;\n    Location loc;\n    List<Flight> flights;\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class Airport {\n    string name;\n    Location loc;\n    List<Flight> flights;\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "fNLLUa_DC3GJdKTCUcy7c",
+      "type": "rectangle",
+      "x": 867.1893972843885,
+      "y": 965.749369730644,
+      "width": 277.0000000000001,
+      "height": 157,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b42",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2058102640,
+      "version": 94,
+      "versionNonce": 1337440656,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790666141661,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "5pWilXwvOM9MiG3fc0rtQ",
+      "type": "rectangle",
+      "x": 774.1893972843885,
+      "y": 697.749369730644,
+      "width": 281.0000000000001,
+      "height": 241,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b43",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 20239248,
+      "version": 86,
+      "versionNonce": 1944479600,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666260712,
+      "created": 1790666148373,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "SmR1TNKEjAsyKrBSiOYLq",
+      "type": "text",
+      "x": 599.4894690006972,
+      "y": 1015.249369730644,
+      "width": 149.49989318847656,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b44",
+      "roundness": null,
+      "seed": 1373768592,
+      "version": 1430,
+      "versionNonce": 1894685552,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666554253,
+      "created": 1790666165065,
+      "link": null,
+      "locked": false,
+      "text": "class User {\n    string name;\n    String email;\n    .....\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class User {\n    string name;\n    String email;\n    .....\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "nftbE7OhxVKEi_rV5Y6EW",
+      "type": "rectangle",
+      "x": 577.1893972843885,
+      "y": 981.749369730644,
+      "width": 199,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b45",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 948430704,
+      "version": 127,
+      "versionNonce": 1094561680,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666551767,
+      "created": 1790666224028,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "tQ7TEjEM1dMzfM8YwNlx0",
+      "type": "text",
+      "x": 155.4294790714979,
+      "y": 1205.749369730644,
+      "width": 438.3197021484375,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b46",
+      "roundness": null,
+      "seed": 1783787888,
+      "version": 1299,
+      "versionNonce": 2012057488,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666506284,
+      "created": 1790666282960,
+      "link": null,
+      "locked": false,
+      "text": "class FlightBookingSystem {\n    List<User> users;\n    List<Flight> flights;\n    + getFlightDetails(Location start,\n       Location dest, TimeStamp date);\n    + bookingFlight(Flight flight, User user);\n    + confirmBooking(BookingDetails details);\n    \n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class FlightBookingSystem {\n    List<User> users;\n    List<Flight> flights;\n    + getFlightDetails(Location start,\n       Location dest, TimeStamp date);\n    + bookingFlight(Flight flight, User user);\n    + confirmBooking(BookingDetails details);\n    \n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "k4qbu5q0tcCSH-89uM8Xq",
+      "type": "text",
+      "x": 844.4894690006972,
+      "y": 1232.249369730644,
+      "width": 239.01983642578125,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b47",
+      "roundness": null,
+      "seed": 1679902608,
+      "version": 1449,
+      "versionNonce": 1883085200,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666648682,
+      "created": 1790666529883,
+      "link": null,
+      "locked": false,
+      "text": "class BookingDetails {\n    Flight flight;\n    User user;\n    Location start;\n    Location destination;\n    Date date;\n    PNR pnr;\n    .....\n}",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class BookingDetails {\n    Flight flight;\n    User user;\n    Location start;\n    Location destination;\n    Date date;\n    PNR pnr;\n    .....\n}",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "6jmujY9VVI9JoB6QPXUtl",
+      "type": "rectangle",
+      "x": 102.18939728438852,
+      "y": 1184.749369730644,
+      "width": 502,
+      "height": 244,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b48",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1811938704,
+      "version": 108,
+      "versionNonce": 108541328,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666546568,
+      "created": 1790666539611,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "iVaTUdZiDlwz63JzNCVTS",
+      "type": "rectangle",
+      "x": 815.1893972843885,
+      "y": 1216.749369730644,
+      "width": 309.0000000000001,
+      "height": 252,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b49",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2026641776,
+      "version": 46,
+      "versionNonce": 482817904,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666654289,
+      "created": 1790666653248,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "YRmSemZVDK02RSmKr7g5z",
+      "type": "rectangle",
+      "x": 140.18939728438852,
+      "y": 1542.749369730644,
+      "width": 232,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4A",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 856203664,
+      "version": 44,
+      "versionNonce": 359785840,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "FuJ9PUuqMp0o371vai9Lr"
+        }
+      ],
+      "updated": 1790666713862,
+      "created": 1790666699661,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "FuJ9PUuqMp0o371vai9Lr",
+      "type": "text",
+      "x": 179.97944397628305,
+      "y": 1552.749369730644,
+      "width": 152.41990661621094,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4B",
+      "roundness": null,
+      "seed": 1666180976,
+      "version": 30,
+      "versionNonce": 992896368,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790666722046,
+      "created": 1790666702605,
+      "link": null,
+      "locked": false,
+      "text": "Payment module",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "YRmSemZVDK02RSmKr7g5z",
+      "originalText": "Payment module",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "N-8s9peY20XUcaeKJjBx0",
+      "type": "rectangle",
+      "x": 449.1893972843885,
+      "y": 1541.249369730644,
+      "width": 232,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4C",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1734061424,
+      "version": 81,
+      "versionNonce": 873954192,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "He5MfuT_G-z3FZH7XR_as"
+        }
+      ],
+      "updated": 1790666740590,
+      "created": 1790666715364,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "He5MfuT_G-z3FZH7XR_as",
+      "type": "text",
+      "x": 469.6494726628065,
+      "y": 1551.249369730644,
+      "width": 191.07984924316406,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4D",
+      "roundness": null,
+      "seed": 2086961008,
+      "version": 93,
+      "versionNonce": 2025949584,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1790666740590,
+      "created": 1790666715364,
+      "link": null,
+      "locked": false,
+      "text": "Notification Service",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "N-8s9peY20XUcaeKJjBx0",
+      "originalText": "Notification Service",
       "autoResize": true,
       "lineHeight": 1.25,
       "labelPosition": null
